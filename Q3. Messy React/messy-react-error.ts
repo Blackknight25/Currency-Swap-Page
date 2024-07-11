@@ -92,3 +92,13 @@ interface WalletBalance {
       </div>
     )
   }
+
+
+//Summary of Errors/Faults:
+//1. Repeated properties in interfaces WalletBalance and FormattedWalletBalance
+//2. Typo of console.err instead of console.error
+//3. lhsPriority used but not defined
+//4. getPriority should have been included in the dependency array for sortedBalances
+//5. formattedBalances defined but not used, similiar logic repeated later
+//6. useMemo() & dependency array can be used for const rows
+//I have also labelled the error details in each faulty line of code.
